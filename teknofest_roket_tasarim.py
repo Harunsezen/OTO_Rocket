@@ -498,6 +498,15 @@ class OpenRocketExporter:
         Returns:
             str: Kaydedilen dosyanın yolu
         """
+        import os
+        
+        # Dosya adını normalize et - sadece dosya adını al, yol bilgisi varsa kaldır
+        filename = os.path.basename(filename)
+        # .ork uzantısını ekle
+        if not filename.endswith('.ork'):
+            filename += '.ork'
+        # Mevcut çalışma dizininde oluştur
+        filepath = os.path.abspath(filename)
         
         # XML kök elementi
         root = ET.Element('openrocket')
@@ -556,10 +565,10 @@ class OpenRocketExporter:
         # XML'i güzelleştir ve kaydet
         xml_str = self._prettify_xml(root)
         
-        with open(filename, 'w', encoding='utf-8') as f:
+        with open(filepath, 'w', encoding='utf-8') as f:
             f.write(xml_str)
         
-        return filename
+        return filepath
     
     def _add_element(self, parent, tag, text):
         """XML elementi ekle"""

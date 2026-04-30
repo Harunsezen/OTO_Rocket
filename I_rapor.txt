@@ -1,0 +1,75 @@
+======================================================================
+TEKNOFEST ORTA İRTİFA ROKETİ TASARIM RAPORU
+======================================================================
+
+1. GENEL BİLGİLER
+----------------------------------------
+   Roket Adı: I
+   Açıklama: TEKNOFEST Orta İrtifa Roketi - 2250.0m hedef
+   Toplam Uzunluk: 0.712 m
+   Gövde Çapı: 75.0 mm
+   Toplam Kütle: 2.731 kg
+
+2. BİLEŞENLER
+----------------------------------------
+   Burun Konisi:
+      - Şekil: ogive
+      - Uzunluk: 0.263 m
+      - Kütle: 0.195 kg
+      - Malzeme: carbon_fiber
+
+   Gövde Tüpleri:
+      1. Main Body Tube:
+         - Uzunluk: -0.313 m
+         - Kütle: 0.487 kg
+      2. Avionics Bay:
+         - Uzunluk: 0.500 m
+         - Kütle: 0.130 kg
+
+   Kanatçıklar:
+      - Sayı: 4
+      - Şekil: trapezoidal
+      - Kök Kordu: 0.275 m
+      - Tepe Kordu: 0.114 m
+      - Açıklık: 0.262 m
+      - Kütle: 0.978 kg
+
+   Motor Yuvası:
+      - Motor: Aerotech H180
+      - Çap: 38.0 mm
+      - Kütle: 0.344 kg
+
+   Kurtarma Sistemi:
+      - Tip: parachute
+      - Paraşüt Çapı: 2.50 m
+      - Açılma İrtifası: 300 m
+
+3. PERFORMANS ANALİZİ
+----------------------------------------
+   Ağırlık Merkezi (CG): 0.043 m
+   Basınç Merkezi (CP): 0.233 m
+   Stabilite Marjı: 2.540 cal
+
+4. TEKNOFEST STANDARTLARI DOĞRULAMA
+----------------------------------------
+   ✓ TASARIM ONAYLANDI
+
+   Uygunluk Kontrolleri:
+      ✓ Gövde çapı: 75.0mm (max: 108mm)
+      ✓ Stabilite marjı: 2.54 cal (min: 1.5)
+      ✓ Hedef stabilite sağlandı: 2.54 cal
+      ✓ Toplam kütle: 2.73 kg
+      ✓ Toplam uzunluk: 0.71m
+      ✓ Kurtarma sistemi: Paraşüt (2.5m)
+
+5. ÖNERİLER
+----------------------------------------
+   - OpenRocket'te detaylı simülasyon yapınız
+   - Rüzgar tüneli testi önerilir
+   - Statik yük testleri yapılmalıdır
+   - Kurtarma sistemi yer testleri önemle
+   - Aviyonik sistem çift yedekli olmalıdır
+
+======================================================================
+Rapor Tarihi: 2026-04-30 14:52:22
+======================================================================
