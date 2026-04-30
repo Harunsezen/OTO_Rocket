@@ -1,0 +1,5 @@
+```
+# Configuration and report files
+*.ork
+*_rapor.txt
+```
