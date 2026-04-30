@@ -1,1 +1,5 @@
-Nothing should be ignored based on the provided file changes. The only modified file is `teknofest_roket_tasarim.py`, which appears to be a Python source code file and should not be added to .gitignore.
+```
+# Project-specific ignores
+*.ork
+*.txt
+```
