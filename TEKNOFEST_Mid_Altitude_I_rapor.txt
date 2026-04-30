@@ -1,0 +1,75 @@
+======================================================================
+TEKNOFEST ORTA İRTİFA ROKETİ TASARIM RAPORU
+======================================================================
+
+1. GENEL BİLGİLER
+----------------------------------------
+   Roket Adı: TEKNOFEST_Mid_Altitude_I
+   Açıklama: TEKNOFEST Orta İrtifa Roketi - 2500.0m hedef
+   Toplam Uzunluk: 0.931 m
+   Gövde Çapı: 98.0 mm
+   Toplam Kütle: 3.753 kg
+
+2. BİLEŞENLER
+----------------------------------------
+   Burun Konisi:
+      - Şekil: ogive
+      - Uzunluk: 0.343 m
+      - Kütle: 0.291 kg
+      - Malzeme: carbon_fiber
+
+   Gövde Tüpleri:
+      1. Main Body Tube:
+         - Uzunluk: -0.255 m
+         - Kütle: 0.727 kg
+      2. Avionics Bay:
+         - Uzunluk: 0.500 m
+         - Kütle: 0.194 kg
+
+   Kanatçıklar:
+      - Sayı: 4
+      - Şekil: trapezoidal
+      - Kök Kordu: 0.326 m
+      - Tepe Kordu: 0.142 m
+      - Açıklık: 0.298 m
+      - Kütle: 1.339 kg
+
+   Motor Yuvası:
+      - Motor: Aerotech I200
+      - Çap: 54.0 mm
+      - Kütle: 0.513 kg
+
+   Kurtarma Sistemi:
+      - Tip: parachute
+      - Paraşüt Çapı: 2.50 m
+      - Açılma İrtifası: 300 m
+
+3. PERFORMANS ANALİZİ
+----------------------------------------
+   Ağırlık Merkezi (CG): 0.106 m
+   Basınç Merkezi (CP): 0.331 m
+   Stabilite Marjı: 2.288 cal
+
+4. TEKNOFEST STANDARTLARI DOĞRULAMA
+----------------------------------------
+   ✓ TASARIM ONAYLANDI
+
+   Uygunluk Kontrolleri:
+      ✓ Gövde çapı: 98.0mm (max: 108mm)
+      ✓ Stabilite marjı: 2.29 cal (min: 1.5)
+      ✓ Hedef stabilite sağlandı: 2.29 cal
+      ✓ Toplam kütle: 3.75 kg
+      ✓ Toplam uzunluk: 0.93m
+      ✓ Kurtarma sistemi: Paraşüt (2.5m)
+
+5. ÖNERİLER
+----------------------------------------
+   - OpenRocket'te detaylı simülasyon yapınız
+   - Rüzgar tüneli testi önerilir
+   - Statik yük testleri yapılmalıdır
+   - Kurtarma sistemi yer testleri önemle
+   - Aviyonik sistem çift yedekli olmalıdır
+
+======================================================================
+Rapor Tarihi: 2026-04-30 14:34:48
+======================================================================

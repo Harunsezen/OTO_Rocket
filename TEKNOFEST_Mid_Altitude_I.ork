@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<openrocket version="23.09.RELEASE" creator="TEKNOFEST_Rocket_Designer" timestamp="2026-04-30T14:34:48.693118">
+  <meta>
+    <name>TEKNOFEST_Mid_Altitude_I</name>
+    <description>TEKNOFEST Orta İrtifa Roketi - 2500.0m hedef</description>
+    <category>high_power_rocket</category>
+  </meta>
+  <rocket>
+    <stage id="stage_1">
+      <nosecone id="component_1">
+        <name>Nose Cone</name>
+        <length>0.343000</length>
+        <radius>0.049000</radius>
+        <thickness>0.002500</thickness>
+        <shape>ogive</shape>
+        <material>Carbon fiber</material>
+        <mass>0.290868</mass>
+        <overridden>false</overridden>
+      </nosecone>
+      <bodytube id="component_2">
+        <name>Main Body Tube</name>
+        <length>-0.255000</length>
+        <outerradius>0.049000</outerradius>
+        <innerradius>0.047000</innerradius>
+        <thickness>0.002500</thickness>
+        <material>Carbon fiber</material>
+        <mass>0.727170</mass>
+        <overridden>false</overridden>
+        <position type="top">component_1</position>
+      </bodytube>
+      <bodytube id="component_3">
+        <name>Avionics Bay</name>
+        <length>0.500000</length>
+        <outerradius>0.049000</outerradius>
+        <innerradius>0.047000</innerradius>
+        <thickness>0.002500</thickness>
+        <material>Carbon fiber</material>
+        <mass>0.193912</mass>
+        <overridden>false</overridden>
+        <position type="top">component_2</position>
+      </bodytube>
+      <finset id="component_4">
+        <name>Fins</name>
+        <count>4</count>
+        <shape>trapezoidal</shape>
+        <rootchord>0.326095</rootchord>
+        <tipchord>0.141809</tipchord>
+        <span>0.298091</span>
+        <sweep>0.113447</sweep>
+        <thickness>0.003000</thickness>
+        <material>Carbon fiber</material>
+        <mass>1.338991</mass>
+        <position type="top">component_3</position>
+      </finset>
+      <motormount id="component_5">
+        <name>Motor Mount - Aerotech I200</name>
+        <diameter>0.054000</diameter>
+        <length>0.350000</length>
+        <mass>0.513297</mass>
+        <motor>
+          <name>Aerotech I200</name>
+        </motor>
+      </motormount>
+      <recoverydevice id="component_6">
+        <name>Main Parachute</name>
+        <type>parachute</type>
+        <diameter>2.500000</diameter>
+        <mass>0.400000</mass>
+        <deploymentaltitude>300.00</deploymentaltitude>
+      </recoverydevice>
+    </stage>
+    <simulation id="sim_1">
+      <name>Flight Simulation</name>
+      <targetaltitude>46.6</targetaltitude>
+      <cglocation>0.106372</cglocation>
+      <cplocation>0.330550</cplocation>
+      <stabilitymargin>2.288</stabilitymargin>
+      <totalmass>3.752502</totalmass>
+    </simulation>
+  </rocket>
+</openrocket>
